@@ -1,0 +1,50 @@
+name: myenv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - tqdm
+  - transformers
+  - datasets=2.18.0
+  - accelerate
+  - sentencepiece
+  - torchvision
+  - pytorch=2.5.1
+  - torchaudio
+  - cudatoolkit=11.8  # 适用于支持GPU的用户，如无NVIDIA显卡可删去
+  - huggingface_hub
+  - jupyterlab
+  - ipykernel
+  - ipywidgets
+  - pyyaml
+  - flask
+  - fastapi
+  - uvicorn
+  - sqlite
+  - aiofiles
+  - requests
+  - httpx
+  - beautifulsoup4
+  - lxml
+  - pillow
+  - openpyxl
+  - dill
+  - zipp
+  - python-multipart
+  - markdown
+  - altair
+  - tabulate
+  - rich
+  - seaborn
+  - pip:
+      - sentence-transformers==2.7.0
+      - xformers==0.0.26.post1
+      - bitsandbytes
+      - protobuf==5.26.1
+      - pydantic==2.7.1

@@ -1,0 +1,3 @@
+logs
+*.db
+__pycache__

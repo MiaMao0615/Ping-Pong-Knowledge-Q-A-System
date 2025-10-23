@@ -1,0 +1,5 @@
+sentence-transformers==2.7.0
+xformers==0.0.26.post1
+bitsandbytes
+protobuf==5.26.1
+pydantic==2.7.1
